@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Plaster&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+h1 {
+  font-weight: bold;
+}
+.type-animate-text:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 90%;
+  width: 100%;
+  border-left: 2px solid blue;
+  background-color: white;
+  animation: type 4s steps(12) infinite;
+  overflow: hidden;
+}
+@keyframes type {
+  40%,
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+.uynab-face {
+  mask-image: linear-gradient(to bottom, white 80%, transparent);
+}
+.parallax {
+  opacity: 0.8;
+  font-family: "Plaster", sans-serif;
+}
+
+.html:hover {
+}
