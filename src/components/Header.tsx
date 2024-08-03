@@ -1,22 +1,22 @@
 import { useEffect, useState } from "react";
+
 export default function Header() {
   const [isAtAboutMePage, setIsAtAboutMePage] = useState(false);
 
   useEffect(() => {
-    function scrollHandle() {
-      window.scrollY > 500 && window.scrollY < 4500
-        ? setIsAtAboutMePage(true)
-        : setIsAtAboutMePage(false);
-    }
-    window.addEventListener("scroll", scrollHandle);
-    return () => window.addEventListener("scroll", scrollHandle);
+    const handleScroll = () => {
+      setIsAtAboutMePage(window.scrollY > 500 && window.scrollY < 4000);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <header
-      className={`fixed ${
+      className={`fixed z-50 w-full p-5 px-14 sm:px-10 bg-white ${
         isAtAboutMePage ? "hidden" : "flex"
-      } z-50 w-full justify-between items-center p-5 px-14 sm:px-10 bg-white`}
+      } justify-between items-center`}
     >
       <h1 className="font-bold text-2xl">
         Arfa Banyu <span className="text-[#73c2fb]">Santoro</span>
