@@ -112,13 +112,13 @@ export default function AboutMe() {
             <Text text="Saya duduk di bangku kelas X-RPL untuk menekuni ilmu di bidang teknologi." />
           </Div>
           <Div>
+            <Text text="Coding merupakan hobi yang paling saya sukai dari hobi lainnya." />
+          </Div>
+          <Div>
             <Text text="Saya dilahirkan oleh Ibu yang luar biasa di Jakarta pada tanggal 4 Desember 2008." />
           </Div>
           <Div>
-            <Text text="Umur saya 15 tahun 8 bulan dan saya merupakan anak pertama dari 2 bersaudara" />
-          </Div>
-          <Div>
-            <Text text="Coding merupakan hobi yang paling saya sukai dari hobi lainnya." />
+            <Text text="Alasan saya ingin masuk sekbid TIK karena saya ingin menonjolkan kemampuan saya dalam bidang ini ke semua orang." />
           </Div>
         </div>
       </div>
