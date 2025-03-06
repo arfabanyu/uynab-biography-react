@@ -31,14 +31,14 @@ function Text() {
       <p>Seorang pelajar yang ingin menjadi programmer di masa depan.</p>
       <div className="flex gap-2 z-50 social-media-btn">
         <a
-          href="https://www.instagram.com/nyu_arfx/"
+          href="https://www.instagram.com/arfabanyu/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src={instagram} alt="instagram" />
         </a>
         <a
-          href="https://github.com/Banyuarfa/"
+          href="https://github.com/arfabanyu/"
           target="_blank"
           rel="noopener noreferrer"
         >
