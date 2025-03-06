@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="p-16 sm:p-10 bg-[#73c2fb] text-center">
       <div className="flex justify-center items-center gap-2 mb-4">
         <a
-          href="https://www.instagram.com/nyu_arfx/"
+          href="https://www.instagram.com/arfabanyu/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
@@ -14,7 +14,7 @@ export default function Footer() {
           <img src={instagram} alt="Instagram logo" className="w-8 h-8" />
         </a>
         <a
-          href="https://github.com/Banyuarfa/"
+          href="https://github.com/arfabanyu/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
@@ -24,7 +24,7 @@ export default function Footer() {
       </div>
       <p className="text-white">
         Made with 💖 by{" "}
-        <a href="https://www.instagram.com/nyu_arfx/" className="underline">
+        <a href="https://www.instagram.com/arfabanyu/" className="underline">
           Dev
         </a>
       </p>
